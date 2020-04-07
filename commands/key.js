@@ -30,11 +30,11 @@ const key = {
 
       return key;
     } catch (err) {
-      
+      console.error(err.message.red);
     }
   },
   remove() {
-    console.log('Hello from remove');
+    
   }
 }
 
