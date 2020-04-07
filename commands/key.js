@@ -1,3 +1,6 @@
+const inquirer = require('inquirer');
+const KeyManager = require('../lib/KeyManager');
+
 const key = {
   set() {
     console.log('Hello from set');
